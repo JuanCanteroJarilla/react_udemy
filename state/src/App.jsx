@@ -36,4 +36,8 @@ class App extends Component {
   }
 }
 
+App.defaultProps = { //Le pasamos un valor por defecto a la prop, en el caso de que no se le haya pasado en la instancia del component
+  number: 0
+}
+
 export default App;
